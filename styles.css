@@ -1,6 +1,11 @@
 header{font-family: 'Shrikhand', cursive;display: flex;background-color: red; text-align: center;}
 header>img{padding: 2rem 2rem 2rem 2rem;}
-header>a{color: black;}
+header>h1{display: block; margin-left: auto; margin-right: auto;}
+a{color: black;display: block; margin-left: auto; margin-right: auto;}
 p{font-family: 'Montserrat', sans-serif;}
 h3{font-family: 'Shrikhand', cursive;text-align: center;background-color: red;padding-top: 1rem;padding-bottom: 1rem;}
 body{background-color: lightgray;}
+#home>img{display: block; margin-left: auto; margin-right: auto; width: 50%;}
+p{text-align: center;}
+#about>img{display: flex;}
+#about>.aboutp2{display: flex;}
