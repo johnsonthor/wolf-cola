@@ -1,0 +1,6 @@
+header{font-family: 'Shrikhand', cursive;display: flex;background-color: red; text-align: center;}
+header>img{padding: 2rem 2rem 2rem 2rem;}
+header>a{color: black;}
+p{font-family: 'Montserrat', sans-serif;}
+h3{font-family: 'Shrikhand', cursive;text-align: center;background-color: red;padding-top: 1rem;padding-bottom: 1rem;}
+body{background-color: lightgray;}
