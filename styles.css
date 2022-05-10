@@ -6,6 +6,13 @@ p{font-family: 'Montserrat', sans-serif;}
 h3{font-family: 'Shrikhand', cursive;text-align: center;background-color: red;padding-top: 1rem;padding-bottom: 1rem;}
 body{background-color: lightgray;}
 #home>img{display: block; margin-left: auto; margin-right: auto; width: 50%;}
-p{text-align: center;}
+#home>p{text-align: center;}
 #about>img{display: flex;}
 #about>.aboutp2{display: flex;}
+h2{font-family: 'Shrikhand', cursive;color: blue;}
+#products>.drinks{display: grid;grid-template-columns: 1fr 1fr;grid-template-rows: 25px auto;grid-gap: 2rem;}
+#products>.drinks>.wc{padding-left: 35%;padding-bottom: 5rem;}
+#products>.drinks>.dwc{padding-left: 10%;}
+#products>.drinks>.fm{padding-left: 35%;padding-top:25%;}
+#products>.drinks>.crp{padding-left: 10%; padding-top: 25%;}
+#products>.drinks>.wc>img
