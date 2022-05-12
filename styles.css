@@ -8,7 +8,7 @@ h3{font-family: 'Shrikhand', cursive;text-align: center;background-color: red;pa
 body{background-color: lightgray;}
 #home>img{display: block; margin-left: auto; margin-right: auto; width: 40%;}
 #home>p{text-align: center; font-size: larger;}
-#about>img{margin-left: auto;margin-right: auto;}
+#about>div>img{display: block;padding-left: 25rem;
 h2{font-family: 'Shrikhand', cursive;color: blue;}
 #products>.drinks{display: grid;grid-template-columns: 1fr 1fr;grid-gap: 2rem;}
 #products>.drinks>.wc{padding-left: 35%;padding-bottom: 5rem;}
