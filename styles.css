@@ -1,18 +1,32 @@
-header{font-family: 'Shrikhand', cursive;display: flex;background-color: red; text-align: center;}
+header{font-family: 'Shrikhand', cursive;display: flex;background-color: red; text-align: center;flex-wrap: wrap;}
+header>nav{flex-basis: 100%;}
 header>img{padding: 2rem 2rem 2rem 2rem;}
 header>h1{display: block; margin-left: auto; margin-right: auto;}
-a{color: black;display: block; margin-left: auto; margin-right: auto;}
+a{color: black; margin-left: auto; margin-right: auto;padding: 0 5rem 2rem 8rem;}
 p{font-family: 'Montserrat', sans-serif;}
 h3{font-family: 'Shrikhand', cursive;text-align: center;background-color: red;padding-top: 1rem;padding-bottom: 1rem;}
 body{background-color: lightgray;}
-#home>img{display: block; margin-left: auto; margin-right: auto; width: 50%;}
-#home>p{text-align: center;}
-#about>img{display: flex;}
-#about>.aboutp2{display: flex;}
+#home>img{display: block; margin-left: auto; margin-right: auto; width: 40%;}
+#home>p{text-align: center; font-size: larger;}
+#about>img{margin-left: auto;margin-right: auto;}
 h2{font-family: 'Shrikhand', cursive;color: blue;}
-#products>.drinks{display: grid;grid-template-columns: 1fr 1fr;grid-template-rows: 25px auto;grid-gap: 2rem;}
+#products>.drinks{display: grid;grid-template-columns: 1fr 1fr;grid-gap: 2rem;}
 #products>.drinks>.wc{padding-left: 35%;padding-bottom: 5rem;}
 #products>.drinks>.dwc{padding-left: 10%;}
 #products>.drinks>.fm{padding-left: 35%;padding-top:25%;}
 #products>.drinks>.crp{padding-left: 10%; padding-top: 25%;}
-#products>.drinks>.wc>img
+#products>.drinks:before{width:6rem;height: 6rem;}
+#products>.drinks>div:before{position:absolute;width: 6rem;transform: scale(0.5);}
+#products>.drinks>div{position: relative;}
+#products>.drinks>.wc:before{content: url(Images/color-logo.png);}
+#products>.drinks>.dwc:before{content: url(Images/diet.png);}
+#products>.drinks>.fm:before{content: url(Images/fightmilk.png);}
+#products>.drinks>.crp:before{content: url(Images/carribbeanparadise.png);}
+#order>.orderinfo{display: block;text-align: center;margin-left: auto; margin-right: auto;}
+#order>.submit{text-align: center;padding-top: 5rem;}
+#order>.orderpic>img{display: inline-block;width:10rem;;padding: 5rem 5rem 5rem 5rem;align-items: center;padding-left: 25%;}
+#contact>p{text-align: center;font-size: larger;}
+#order>.orderpic>h2{text-align: center; padding-top: 3rem;}
+@media(max-width:500px){
+
+}
