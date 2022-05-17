@@ -12,12 +12,6 @@ body{background-color: lightgray;}
 #about>div>h6{text-align: center;}
 h2{font-family: 'Shrikhand', cursive;color: blue;}
 #products>.drinks{display: grid;grid-template-columns: 1fr 1fr;grid-gap: 2rem;}
-#products>.drinks>div:before{position:absolute;width: 6rem;transform: scale(0.3);}
-#products>.drinks>div{position: relative;}
-#products>.drinks>.wc:before{content: url(Images/color-logo.png);}
-#products>.drinks>.dwc:before{content: url(Images/diet.png);}
-#products>.drinks>.fm:before{content: url(Images/fightmilk.png);}
-#products>.drinks>.crp:before{content: url(Images/carribbeanparadise.png);}
 #order>.orderinfo{display: block;text-align: center;margin-left: auto; margin-right: auto;}
 #order>.submit{text-align: center;padding-top: 5rem;}
 #order>.orderpic>img{display: inline-block;width:10rem;;padding: 5rem 5rem 5rem 5rem;align-items: center;padding-left: 25%;}
@@ -26,8 +20,10 @@ h2{font-family: 'Shrikhand', cursive;color: blue;}
 input[type=submit]{background-color: red;color: white;}
 input:hover[type=submit]{background-color: black;color: blue;}
 #order>.orderinfo>label{display: block;font-size: 1.5rem;margin: 1rem 0 0.25rem;}
-#order>.orderpic>label>.wcq
 
 @media(max-width:500px){
-
+    #products>.drinks{display: block;text-align: center;}
+    #products>.drinks>img{align-items: center;}
+    header{display: block;}
+    header>nav{display: flex;flex-wrap: wrap }
 }
